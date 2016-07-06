@@ -1,0 +1,66 @@
+/* Empty. Add your own CSS if you like */
+*{
+            font-family: sans-serif;
+            color: chocolate;
+            
+        }
+        .game-title{
+            text-align: center;
+            font-size: 48px;
+        }
+        .ttt-table{
+            border-collapse: collapse;
+            border-color: gold;
+            border-width: 0px;
+            color: gold;
+            width:auto;
+            height: auto;
+            font-size: 3em;
+        }
+        .ttt-cell{
+            width:100px;
+            height:100px;
+            line-height: 90px;
+            font-size: 90px;
+            display:inline-block;
+            text-align: center;
+            padding: 1px;
+            
+        }
+        .notify-both-wins .both-wins-notification,
+        .notify-user-wins .user-wins-notification,
+        .notify-computer-wins .computer-wins-notification,
+        .notify-no-one-wins .no-one-wins-notification{
+            display: block;
+            animation-direction:normal;
+            animation-delay: 800ms;
+            top: 70%;
+        }
+        .wins-notification-wrapper{
+            display:none;
+            position:absolute;
+            bottom:-999px;
+            width: 100%;
+            background-color: #fff;
+            border-radius: 0;
+            padding: 10px;
+            left: 0;
+            height: 100%;
+    
+            z-index: 999;
+            border-top: 3px solid gold;
+            background-image: url(../img/monkey.jpg);
+            background-position: 100% 4%;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            font-size: 32px;
+        }
+        .user-wins-notification{
+            background-image: url(../img/boy.jpg);
+            background-position: 100% 4%;
+        }
+        .computer-wins-notification{
+            background-image: url(../img/cub.jpg);
+            background-position: 100% 4%;
+        }
+        
