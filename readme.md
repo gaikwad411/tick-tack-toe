@@ -9,6 +9,3 @@ basic game programming.
 
 Please feel free to discuss / copy code if you want. No restrictions!
 
-Thanks
-Sachin
-gaikwad411 [at] gmail [dot] com
